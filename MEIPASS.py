@@ -17,7 +17,7 @@ window.minsize(350, 400)
 
 
 '''
-replace lines 25-31 in diceroller.py with the above code
+replace lines 11-17 in diceroller.py with the above code
 
 run command:
 pyinstaller -w --onefile --icon=dice.ico --add-data=dice.ico:. diceroller.py
