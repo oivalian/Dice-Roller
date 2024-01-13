@@ -4,7 +4,7 @@ My very first project using a GUI library.
 A very basic single die, dice roller. Click the button to roll.
 
 ## Required libraries
-Password Generator uses the following libraries:
+Dice Roller uses the following libraries:
 `random`
 `tkinter`
 `ttkbootstrap`
