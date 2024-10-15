@@ -9,13 +9,10 @@ def dice_roll():
 
 
 # window / root
-window = ttk.Window(themename='darkly')
+window = ttk.Window(themename='darkly', title="Dice Roller")
 window.iconbitmap('content/dice.ico')
-window.title('Dice Roller')
 window.geometry("350x400")
-window.maxsize(350, 400)
-window.minsize(350, 400)
-
+window.resizable(False, False)
 
 # output
 output_string = tk.StringVar()
